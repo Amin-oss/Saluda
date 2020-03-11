@@ -21,7 +21,10 @@ public class Saluda {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca su Nombre");
         String Nombre = sc.nextLine();
-        System.out.println("Hola: " + Nombre);
+        System.out.println("introduze Edad");
+        int edad=sc.nextInt();
+          System.out.println("Hola: "+Nombre+" Tienes: "+edad+" "+"Años");
+      
     }
 
 }
